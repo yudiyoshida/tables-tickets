@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Venda de Ingressos</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-500">
+    <div class="container mx-auto py-8">
+        <h1 class="text-2xl font-bold mb-4 text-center">Lista de Produtos/Ingressos</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mx-3">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">Ingresso Padrão</h2>
+                <p class="text-gray-600">Descrição do ingresso padrão. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="text-gray-600 font-bold">Preço: R$ 50,00</p>
+                <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Adicionar ao Carrinho</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">Ingresso VIP</h2>
+                <p class="text-gray-600">Descrição do ingresso VIP. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="text-gray-600 font-bold">Preço: R$ 100,00</p>
+                <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    <a href="./shopping-cart.html">Adicionar ao Carrinho</a>
+                </button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">Pacote Família</h2>
+                <p class="text-gray-600">Descrição do pacote família. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="text-gray-600 font-bold">Preço: R$ 200,00</p>
+                <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center border-t-2 py-3">
+        <a href="../index.html">exibir telas do módulo restaurante/bar</a>
+    </footer>
+</body>
+
+</html>
